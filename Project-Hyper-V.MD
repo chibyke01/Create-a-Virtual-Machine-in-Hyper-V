@@ -3,18 +3,17 @@ In this project will show the step by step process how a virtual machine can be 
 
 To start the process of creating the virtual machine you will first download the **iso** image of the virtual machine and save in any folder or path that it can be recalled at anytime.
 
-Step1 - By default you do not have the Hyper-V Manager on the system, in other to confirm if its active on your system press the Windows key and search for Hyper-V Manager in your application otherwise press **Windows + R** and hit **Enter** on your key board to check/select the option, click ok and restart the system for the settings to initialize.
+**Step 1** - By default you do not have the Hyper-V Manager on the system, in other to confirm if its active on your system press the Windows key and search for Hyper-V Manager in your application otherwise press **Windows + R** and hit **Enter** on your key board to check/select the option, click ok and restart the system for the settings to initialize.
 
 ![Alt text](<Images/Windows plus R.png>)
 ![Alt text](<Images/Check the Hyper-V option.png>)
 
-Step2 - Search and open the Hyper-V Manager on your machine and follow the below step:
+**Step 2** - Search and open the Hyper-V Manager on your machine and follow the below step:
 * Select Action
 * Connect to Server
 * Select Local computer
-![Alt text](<Images/Check the Hyper-V option.png>)
 
-Step3 - Create a virtual switch manager, for the project will choose the option of private switch as it allows communication between virtual machines on the same private network no internet connectivity, external network or connection to the host operating machine. Follw the steps below to create the virtual switch manager.
+**Step 3** - Create a virtual switch manager, for the project will choose the option of private switch as it allows communication between virtual machines on the same private network no internet connectivity, external network or connection to the host operating machine. Follw the steps below to create the virtual switch manager.
 * On the Hyper-V Manager, select Action
 * Select virtual swtich manager.
 * Select New virtual network. 
