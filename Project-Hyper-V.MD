@@ -37,11 +37,11 @@ At this point we have successfully created the switch next we need to create the
 
 ![Alt text](<Images/creating a virtual machine action new new vM.png>)
 
-## Step 2 
+## Step 2 - Specify Name and Location
 * The next page allows you to either choose a storage location or you can create a new folder and select the created folder as your storage location, ensure to tick the box if you change the default storage path.
 ![Alt text](<Images/Changed storage location to cVM.png>)
 
-## Step 3
+## Step 3 - Specify Generation
 Select a Generation, we see two generations (1 and 2)
 **N/B** Your choice to create a generation 1 or generation 2 virtual machine depends on which guest operating system you want to install and the boot method you want to use to deploy the virtual machine. We recommend that you create a generation 2 virtual machine to take advantage of features like Secure Boot.
 
@@ -51,15 +51,15 @@ Generation 2 virtual machines support most 64-bit versions of Windows and more c
 For this project I will choose generation 2 as this suits what I want to achive.
 ![Alt text](<Images/Choosed generation 2.png>)
 
-## Step 4
+## Step 4 - Assign Memory
 * Allow the selected option of Dynamic memory as this feature allows you to dynamically allocate memory resources to the VMs running in Hyper-V environments. This functionality reclaims a part of unused memory from VMs that don’t need it at that particular moment and then reassigns the reclaimed memory to other VMs that actually require it. However here the size depends on the system RAM.
 ![Alt text](<Images/memory assigned and choosed dynamic momory.png>)
 
-## Step 5
+## Step 5 - Configure Networking
 * On the network configuration I choosed the name of the virtual switch I configured early, which is a private network.
 ![Alt text](<Images/the previous network created at the first step.png>)
 
-## Step 6 - Configure Networking
+## Step 6 - Connect Virtual Hard Disk
 * The vritual machine requires storage space to install the operating system, its just like a hard disk on your system but this will be a storage space virtually. Also note that the path will be same as the location initially specified.
 ![Alt text](<Images/virtual hard disk 40gb.png>)
 
@@ -68,7 +68,33 @@ For this project I will choose generation 2 as this suits what I want to achive.
 ![Alt text](<Images/choosed the location of my iso image downloaded.png>)
 
 ## Step 8 - Summary 
-* This page shows you the summary of settings/configuration made while setting up the Virtual machine.
+* This page shows you the summary of settings/configuration made while setting up the Virtual machine and if you ok click on finish to run setup.
 ![Alt text](<Images/Summary of the installation.png>)
 
+* The below screenshot confirms that the Virtual machine was created successfully.
+![Alt text](<Images/Created successfully .png>)
+
+* From the above screenshot you notice that the virtual machine is turned OFF, however I need to power it ON for final setup of my Virtual Machine, see the below screenshot as follows.
+
+* Select start to start the virtua; machine.
+![Alt text](<Images/turn ON before starting .png>)
+
+* My Virtual machine is Up, just click on next.
+![Alt text](<Images/My Machine is up .png>)
+
+* Choose the Microsoft server operating system.
+![Alt text](<Images/I choosed thisbecause of the option or what I need at this time .png>)
+
+* Microsoft server operating system setup/installation.
+![Alt text](<Images/OS installation is ongoing .png>)
+
+* Set Administractor password.
+![Alt text](<Images/Set up Admin password .png>)
+![Alt text](<Images/Sign in page.png>)
+
+* Active and running, testing with some cmds to check files/folders.
+![Alt text](<Images/We are set and good, VM ready with server manager .png>)
+![Alt text](<Images/To show nothing is in the server at the moment .png>)
+
+## _Thank you._
 
